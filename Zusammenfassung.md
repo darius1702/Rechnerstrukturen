@@ -2,6 +2,8 @@
 title: Zusammenfassung Rechnerstrukturen
 author: Darius Schefer
 date: 15.03.2023
+geometry: margin=2cm
+output: pdf_document
 ---
 # Random
 ### TBD
@@ -67,7 +69,7 @@ date: 15.03.2023
     - $P \sim V^3, P \sim f^3$ bei simultaner Änderung
 
 # Schaltwahrscheinlichkeit
-- $\mathbb{P}_{\text{Schalt}} = \mathbb{P}(0 \rarr 1 \vee 1 \rarr 0) = 2 \cdot \mathbb{P}(1) \cdot (1 - \mathbb{P}(1))$
+- $\mathbb{P}_{\text{Schalt}} = \mathbb{P}(0 \rightarrow 1 \vee 1 \rightarrow 0) = 2 \cdot \mathbb{P}(1) \cdot (1 - \mathbb{P}(1))$
 - berechne $\mathbb{P}(1)$ pro Gatter
 
 # Mehr Mathe
@@ -108,3 +110,13 @@ date: 15.03.2023
     - $b$: mittlere Bedienzeit
 - Voraussetzung: statistisches Gleichgewicht
 
+# TODO
+- Taxonomie Simulatoren
+- Fehlerwahrscheinlichkeit advanced
+- Parallelität
+- Flynn
+- Pipelining
+- Sprungvorhersage
+- Registerumbennenung
+- VLIW
+- Multithreading
